@@ -1,0 +1,2 @@
+django
+numpy >= 1.20.1
