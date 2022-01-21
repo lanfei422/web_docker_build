@@ -11,7 +11,7 @@ func() {
 }
 
 
-while getopts 'n:p:v' OPT; do
+while getopts 'n:p:v:' OPT; do
         case $OPT in
                 n) docker_name="$OPTARG";;
                 p) port="$OPTARG";;
