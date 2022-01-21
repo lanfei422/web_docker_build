@@ -7,7 +7,7 @@ func() {
         echo "port, the web port to be exposed."
         echo "docker_name, the name of docker to be built."
         echo "version, the docker version"
-        exit 0
+        exit 1
 }
 
 
