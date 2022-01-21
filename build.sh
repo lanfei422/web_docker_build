@@ -20,4 +20,4 @@ while getopts 'n:p:v' OPT; do
         esac
 done
 
-docker build -t ${docker_name:test}:${version:=1.0} --build-arg port=$port -f ./Dockerfile .
+docker build -t ${docker_name:=test}:${version:=1.0} --build-arg port=$port -f ./Dockerfile .
