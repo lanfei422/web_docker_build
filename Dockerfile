@@ -1,6 +1,6 @@
 FROM python:3.8
-ARG web_port
-ENV port=$web_port
+ARG in_port
+ENV port=$in_port
 
 WORKDIR /usr/src/app
 COPY requirements.txt ./
