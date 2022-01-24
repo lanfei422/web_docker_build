@@ -19,5 +19,4 @@ while getopts 'n:p:v:' OPT; do
                 ?) func;;
         esac
 done
-
 docker build -t ${docker_name:=test}:${version:=1.0} --build-arg web_port=${port} -f ./Dockerfile .
