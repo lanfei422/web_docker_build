@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 COPY . .
 
 EXPOSE $web_port
-CMD python manage.py runserver "0.0.0.0:$web_port"
+CMD ["sh","-c","python manage.py runserver 0.0.0.0:$web_port"]
