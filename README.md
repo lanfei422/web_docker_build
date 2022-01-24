@@ -3,3 +3,4 @@
 ## Dockerfile 最后执行默认是django程序，如果是flask或者其他框架，启动命令需要自己改一下。
 ## 因为涉及到pip install -r requirements.txt，需要外网或者内部自建pip源才行。
 ## 基于python3.8镜像打的，其他版本自行修改。
+## 自建项目时，将Dockerfile 和 build.sh 复制到项目根目录即可。
